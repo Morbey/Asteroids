@@ -1,10 +1,9 @@
 import pygame
 import random
 
-from pygame import Color
-
-from circleshape import CircleShape
 from constants import ASTEROID_MIN_RADIUS
+from pygame import Color
+from sprites.circleshape import CircleShape
 
 class Asteroid(CircleShape):
     def __init__(self, x, y, radius):

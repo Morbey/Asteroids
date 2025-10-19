@@ -4,11 +4,11 @@ import pygame
 
 from pygame import Color
 
-from asteroid import Asteroid
-from asteroidfield import AsteroidField
 from constants import SCREEN_WIDTH, SCREEN_HEIGHT
-from player import Player
-from shot import Shot
+from sprites.asteroid import Asteroid
+from sprites.asteroidfield import AsteroidField
+from sprites.player import Player
+from sprites.shot import Shot
 
 
 def main():
